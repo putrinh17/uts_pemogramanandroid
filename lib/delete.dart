@@ -13,7 +13,7 @@ class Detail extends StatefulWidget {
 
 class _DetailState extends State<Detail> {
   void deleteData() {
-     var url="https://munir.galih.pw/xphone_rianti/delete_phone.php";
+     var url="http://locallhost/xphone/delete_phone.php";
     http.post(url, body: {'id': widget.list[widget.index]['id']});
   }
 

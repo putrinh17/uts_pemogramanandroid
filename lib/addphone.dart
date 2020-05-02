@@ -15,7 +15,7 @@ TextEditingController controllerPrice = new TextEditingController();
 
 
 void addData(){
-  var url="https://munir.galih.pw/xphone_rianti/add_phone.php";
+  var url="http://locallhost/xphone/add_phone.php";
 
   http.post(url, body: {
     "phone_name": controllerName.text,

@@ -34,7 +34,7 @@ class _EditDataState extends State<EditData> {
   }
 
   void editData() {
-    var url = "https://munir.galih.pw/xphone_rianti/edit_phone.php";
+    var url = "http://locallhost/xphone/edit_phone.php";
     http.post(url, body: {
       "id": widget.list[widget.index]['id'],
       "phone_name": controllerName.text,
